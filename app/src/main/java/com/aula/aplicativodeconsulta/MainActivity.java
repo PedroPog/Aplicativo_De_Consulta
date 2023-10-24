@@ -2,6 +2,7 @@ package com.aula.aplicativodeconsulta;
 
 import androidx.appcompat.app.AppCompatActivity;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.Gravity;
@@ -31,6 +32,10 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 toast("Button Cadastro");
+
+                Intent intent = new Intent(MainActivity.this, CadastroActivity.class);
+                startActivity(intent);
+
             }
         });
     }
