@@ -1,8 +1,10 @@
-package com.aula.aplicativodeconsulta;
+package com.aula.aplicativodeconsulta.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
+
+import com.aula.aplicativodeconsulta.R;
 
 public class CadastroActivity extends AppCompatActivity {
 
