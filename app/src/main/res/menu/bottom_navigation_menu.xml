@@ -16,8 +16,8 @@
         android:icon="@drawable/ic_place"
         android:title="@string/menu_place"/>
     <item
-        android:id="@+id/menu_new"
+        android:id="@+id/menu_perfil"
         android:enabled="true"
-        android:icon="@drawable/ic_new"
-        android:title="@string/menu_new"/>
+        android:icon="@drawable/ic_perfil"
+        android:title="@string/menu_perfil"/>
 </menu>

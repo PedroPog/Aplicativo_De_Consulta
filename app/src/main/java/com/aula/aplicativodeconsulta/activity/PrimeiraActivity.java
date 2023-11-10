@@ -22,7 +22,7 @@ public class PrimeiraActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         binding = ActivityPrimeiraBinding.inflate(getLayoutInflater());
-        setContentView(R.layout.activity_primeira);
+        setContentView(binding.getRoot());
 
         initNav();
 

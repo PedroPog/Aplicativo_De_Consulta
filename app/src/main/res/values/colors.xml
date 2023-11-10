@@ -5,4 +5,5 @@
     <color name="blueStart">#a1c4fd</color>
     <color name="blueCenter">#A5D8EF</color>
     <color name="blueEnd">#c2e9fb</color>
+    <color name="blueMenu">#FF8BD9FC</color>
 </resources>
