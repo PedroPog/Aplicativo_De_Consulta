@@ -3,4 +3,11 @@
     <string name="name">Nosso Tcc</string>
     <string name="Buttonlogin">Login</string>
     <string name="cadastre_se">Cadastre-se</string>
+
+    <string name="menu_favorito">Favoritos</string>
+    <string name="menu_music">Músicas</string>
+    <string name="menu_place">Lugares</string>
+    <string name="menu_new">Noticias</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>

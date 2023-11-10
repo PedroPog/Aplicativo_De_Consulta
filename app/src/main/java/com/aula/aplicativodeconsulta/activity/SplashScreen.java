@@ -1,10 +1,13 @@
-package com.aula.aplicativodeconsulta;
+package com.aula.aplicativodeconsulta.activity;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
+
+import com.aula.aplicativodeconsulta.MainActivity;
+import com.aula.aplicativodeconsulta.R;
 
 public class SplashScreen extends AppCompatActivity {
 

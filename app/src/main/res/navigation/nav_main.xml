@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_main"
+    app:startDestination="@id/menu_favorite">
+
+    <fragment
+        android:id="@+id/menu_favorite"
+        android:name="com.aula.aplicativodeconsulta.activity.fragments.FavoriteFragment"
+        android:label="fragment_favorite"
+        tools:layout="@layout/fragment_favorite" />
+    <fragment
+        android:id="@+id/menu_music"
+        android:name="com.aula.aplicativodeconsulta.activity.fragments.MusicFragment"
+        android:label="fragment_music"
+        tools:layout="@layout/fragment_music" />
+    <fragment
+        android:id="@+id/menu_place"
+        android:name="com.aula.aplicativodeconsulta.activity.fragments.PlaceFragment"
+        android:label="fragment_place"
+        tools:layout="@layout/fragment_place" />
+    <fragment
+        android:id="@+id/menu_new"
+        android:name="com.aula.aplicativodeconsulta.activity.fragments.NewsFragment"
+        android:label="fragment_news"
+        tools:layout="@layout/fragment_news" />
+</navigation>
