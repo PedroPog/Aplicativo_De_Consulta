@@ -20,4 +20,8 @@
     <string name="invalid_password">Password must be >5 characters</string>
     <string name="login_failed">"Login failed"</string>
     <string name="menu_home">Home</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="login">Login</string>
+    <string name="btnlogin">Login</string>
+    <string name="insira_o_password">Insira o password</string>
 </resources>

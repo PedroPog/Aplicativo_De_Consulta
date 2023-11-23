@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_background"
+    tools:context=".activity.LoginActivity">
+
+
+    <TextView
+        android:id="@+id/title_login"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="@string/login"
+        android:textColor="@color/white"
+        android:textSize="50sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/containercomponents"
+        style="@style/containerComponentes"
+        android:layout_width="370dp"
+        android:layout_height="239dp"
+        android:layout_marginTop="48dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/title_login" />
+
+    <EditText
+        android:id="@+id/editText_email"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="56dp"
+        android:drawableLeft="@drawable/ic_persona"
+        android:hint="Insira o login"
+        app:layout_constraintEnd_toEndOf="@id/containercomponents"
+        app:layout_constraintHorizontal_bias="0.75"
+        app:layout_constraintStart_toStartOf="@id/containercomponents"
+        app:layout_constraintTop_toTopOf="@id/containercomponents" />
+
+    <EditText
+        android:id="@+id/editText_senha"
+        style="@style/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:drawableLeft="@drawable/ic_password"
+        android:hint="@string/insira_o_password"
+        android:inputType="textPassword"
+        app:layout_constraintEnd_toEndOf="@id/containercomponents"
+        app:layout_constraintHorizontal_bias="0.25"
+        app:layout_constraintStart_toStartOf="@id/containercomponents"
+        app:layout_constraintTop_toBottomOf="@id/editText_email" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/buttonLogin"
+        style="@style/buttonCadastro"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="36dp"
+        android:background="@drawable/shape_button_cadastro"
+        android:text="@string/btnlogin"
+        app:layout_constraintEnd_toEndOf="@+id/containercomponents"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/containercomponents"
+        app:layout_constraintTop_toBottomOf="@id/containercomponents"></androidx.appcompat.widget.AppCompatButton>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

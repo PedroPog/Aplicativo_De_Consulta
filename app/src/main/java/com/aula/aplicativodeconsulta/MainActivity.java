@@ -11,6 +11,7 @@ import android.widget.ImageView;
 import android.widget.Toast;
 
 import com.aula.aplicativodeconsulta.activity.CadastroActivity;
+import com.aula.aplicativodeconsulta.activity.LoginActivity;
 import com.aula.aplicativodeconsulta.activity.PrimeiraActivity;
 
 public class MainActivity extends AppCompatActivity {
@@ -25,15 +26,15 @@ public class MainActivity extends AppCompatActivity {
         buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toast("Button Login");
-                Intent intent = new Intent(MainActivity.this, PrimeiraActivity.class);
+                //toast("Button Login");
+                Intent intent = new Intent(MainActivity.this, LoginActivity.class);
                 startActivity(intent);
             }
         });
         buttonCadastro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                toast("Button Cadastro");
+                //toast("Button Cadastro");
 
                 Intent intent = new Intent(MainActivity.this, CadastroActivity.class);
                 startActivity(intent);
